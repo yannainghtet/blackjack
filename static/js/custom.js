@@ -10,7 +10,7 @@ window.onload = function() {
 
 
 
-var socket = io.connect('https://blackjack-7w0d.onrender.com:5000')
+const socket = new WebSocket('https://blackjack-7w0d.onrender.com:10000');
 
 
 // upon player connection, start the game
