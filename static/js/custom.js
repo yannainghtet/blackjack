@@ -4,7 +4,7 @@
 
 
 
-var socket = io.connect("https://blackjackeds.onrender.com/")
+var socket = io.connect("https://blackjackynh.onrender.com/")
 console.log("Connect to the server")
 
 socket.emit('start_game')
