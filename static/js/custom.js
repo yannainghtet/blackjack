@@ -10,7 +10,7 @@ window.onload = function() {
 
 
 
-var socket = io.connect()
+var socket = io.connect("127.0.0.1:10000")
 
 
 // upon player connection, start the game
