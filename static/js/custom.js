@@ -1,12 +1,6 @@
 // Starts playing background music when the player loads the page
 
-window.onload = function() {
 
-    song = loopMusic()
-
-    setTimeout(song.play(), 1000) // Needed to trick autoplay blockage by chrome
-
-}
 
 
 
