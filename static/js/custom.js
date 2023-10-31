@@ -4,7 +4,7 @@
 
 
 
-var socket = io.connect("https://blackjackeds.onrender.com/")
+var socket = io.connect("https://blackjackedscardgame.onrender.com/")
 console.log("Connect to the server")
 // upon player connection, start the game
 socket.on('connect', function(){
