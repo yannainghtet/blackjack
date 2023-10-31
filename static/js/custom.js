@@ -10,7 +10,7 @@ window.onload = function() {
 
 
 
-var socket = io()
+var socket = io.connect("https://blackjackeds.onrender.com/")
 
 // upon player connection, start the game
 socket.on('connect', function(){
