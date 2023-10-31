@@ -4,7 +4,7 @@
 
 
 
-var socket = io.connect("https://blackjackgame.onrender.com/")
+var socket = io.connect("https://blackjack21game.onrender.com/")
 
 // upon player connection, start the game
 socket.on('connect', function(){
