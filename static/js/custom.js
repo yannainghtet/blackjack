@@ -6,6 +6,8 @@
 
 var socket = io.connect("https://blackjackeds.onrender.com/")
 console.log("Connect to the server")
+
+socket.emit('start_game')
 // upon player connection, start the game
 socket.on('connect', function(){
     console.log("Connect to the server")
