@@ -17,9 +17,7 @@ def index():
   
 
 
-@socketio.on('connect')
-def handle_connect():
-    print('Client connected')
+
 
 
 def clear_previous_round():
